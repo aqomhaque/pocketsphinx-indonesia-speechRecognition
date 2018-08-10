@@ -1,0 +1,69 @@
+Language model created by QuickLM on Thu Aug  9 03:50:32 EDT 2018
+Copyright (c) 1996-2010 Carnegie Mellon University and Alexander I. Rudnicky
+
+The model is in standard ARPA format, designed by Doug Paul while he was at MITRE.
+
+The code that was used to produce this language model is available in Open Source.
+Please visit http://www.speech.cs.cmu.edu/tools/ for more information
+
+The (fixed) discount mass is 0.5. The backoffs are computed using the ratio method.
+This model based on a corpus of 8 sentences and 8 words
+
+\data\
+ngram 1=8
+ngram 2=16
+ngram 3=22
+
+\1-grams:
+-0.7782 </s> -0.2218
+-0.7782 <s> -0.1761
+-1.6812 BROWSER -0.2218
+-1.3802 BUKA -0.2632
+-1.6812 KAMERA -0.2218
+-1.6812 MUSIK -0.2218
+-1.6812 PROGRAM -0.2218
+-1.3802 TUTUP -0.2632
+
+\2-grams:
+-0.6021 </s> </s> -0.3010
+-0.6021 <s> <s> -0.1761
+-0.9031 <s> BUKA 0.0000
+-0.9031 <s> TUTUP 0.0000
+-0.3010 BROWSER </s> -0.1761
+-0.9031 BUKA BROWSER 0.0000
+-0.9031 BUKA KAMERA 0.0000
+-0.9031 BUKA MUSIK 0.0000
+-0.9031 BUKA PROGRAM 0.0000
+-0.3010 KAMERA </s> -0.1761
+-0.3010 MUSIK </s> -0.1761
+-0.3010 PROGRAM </s> -0.1761
+-0.9031 TUTUP BROWSER 0.0000
+-0.9031 TUTUP KAMERA 0.0000
+-0.9031 TUTUP MUSIK 0.0000
+-0.9031 TUTUP PROGRAM 0.0000
+
+\3-grams:
+-0.6021 <s> <s> BUKA
+-0.6021 <s> <s> TUTUP
+-0.9031 <s> BUKA BROWSER
+-0.9031 <s> BUKA KAMERA
+-0.9031 <s> BUKA MUSIK
+-0.9031 <s> BUKA PROGRAM
+-0.9031 <s> TUTUP BROWSER
+-0.9031 <s> TUTUP KAMERA
+-0.9031 <s> TUTUP MUSIK
+-0.9031 <s> TUTUP PROGRAM
+-0.3010 BROWSER </s> </s>
+-0.3010 BUKA BROWSER </s>
+-0.3010 BUKA KAMERA </s>
+-0.3010 BUKA MUSIK </s>
+-0.3010 BUKA PROGRAM </s>
+-0.3010 KAMERA </s> </s>
+-0.3010 MUSIK </s> </s>
+-0.3010 PROGRAM </s> </s>
+-0.3010 TUTUP BROWSER </s>
+-0.3010 TUTUP KAMERA </s>
+-0.3010 TUTUP MUSIK </s>
+-0.3010 TUTUP PROGRAM </s>
+
+\end\
