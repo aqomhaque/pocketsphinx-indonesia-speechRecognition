@@ -1,0 +1,4 @@
+﻿#JSGF V1.0;
+
+grammar indo;
+public <perintah> = (BUKA | TUTUP) ( BROWSER | MUSIK | PROGRAM | KAMERA );
