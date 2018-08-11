@@ -59,17 +59,10 @@ Current configuration:
 INFO: sphinx_fe.c(971): Processing all remaining utterances at position 0
 INFO: sphinx_fe.c(791): Converting /home/aqom/sphinx-source/indo/wav/Suara1/indo1_1.wav to /home/aqom/sphinx-source/indo/feat/Suara1/indo1_1.mfc
 INFO: sphinx_fe.c(791): Converting /home/aqom/sphinx-source/indo/wav/Suara1/indo2_1.wav to /home/aqom/sphinx-source/indo/feat/Suara1/indo2_1.mfc
-ERROR: "sphinx_fe.c", line 119: Failed to open /home/aqom/sphinx-source/indo/wav/Suara1/indo2_1.wav: No such file or directory
 INFO: sphinx_fe.c(791): Converting /home/aqom/sphinx-source/indo/wav/Suara1/indo3_1.wav to /home/aqom/sphinx-source/indo/feat/Suara1/indo3_1.mfc
-ERROR: "sphinx_fe.c", line 119: Failed to open /home/aqom/sphinx-source/indo/wav/Suara1/indo3_1.wav: No such file or directory
 INFO: sphinx_fe.c(791): Converting /home/aqom/sphinx-source/indo/wav/Suara1/indo4_1.wav to /home/aqom/sphinx-source/indo/feat/Suara1/indo4_1.mfc
-ERROR: "sphinx_fe.c", line 119: Failed to open /home/aqom/sphinx-source/indo/wav/Suara1/indo4_1.wav: No such file or directory
 INFO: sphinx_fe.c(791): Converting /home/aqom/sphinx-source/indo/wav/Suara1/indo5_1.wav to /home/aqom/sphinx-source/indo/feat/Suara1/indo5_1.mfc
-ERROR: "sphinx_fe.c", line 119: Failed to open /home/aqom/sphinx-source/indo/wav/Suara1/indo5_1.wav: No such file or directory
 INFO: sphinx_fe.c(791): Converting /home/aqom/sphinx-source/indo/wav/Suara1/indo6_1.wav to /home/aqom/sphinx-source/indo/feat/Suara1/indo6_1.mfc
-ERROR: "sphinx_fe.c", line 119: Failed to open /home/aqom/sphinx-source/indo/wav/Suara1/indo6_1.wav: No such file or directory
 INFO: sphinx_fe.c(791): Converting /home/aqom/sphinx-source/indo/wav/Suara1/indo7_1.wav to /home/aqom/sphinx-source/indo/feat/Suara1/indo7_1.mfc
-ERROR: "sphinx_fe.c", line 119: Failed to open /home/aqom/sphinx-source/indo/wav/Suara1/indo7_1.wav: No such file or directory
 INFO: sphinx_fe.c(791): Converting /home/aqom/sphinx-source/indo/wav/Suara1/indo8_1.wav to /home/aqom/sphinx-source/indo/feat/Suara1/indo8_1.mfc
-ERROR: "sphinx_fe.c", line 119: Failed to open /home/aqom/sphinx-source/indo/wav/Suara1/indo8_1.wav: No such file or directory
-Sat Aug 11 08:41:12 2018
+Sat Aug 11 10:57:35 2018

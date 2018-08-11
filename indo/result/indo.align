@@ -1,0 +1,1 @@
+UTTID is ignored when matching reference and hypothesis files and line count of files don't match. If UTTID is ignored, then files should match not only in line count, but also line by line.

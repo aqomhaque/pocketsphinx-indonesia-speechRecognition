@@ -1,0 +1,34 @@
+Current configuration:
+[NAME]		[DEFLT]	[VALUE]
+-accumdir		/home/aqom/sphinx-source/indo/bwaccumdir/indo_buff_1,
+-constE		3.0	3.000000e+00
+-dcountfn		
+-example	no	no
+-fullvar	no	no
+-help		no	no
+-inmeanfn		
+-inmixwfn		
+-invarfn		
+-meanfn			/home/aqom/sphinx-source/indo/model_parameters/indo.ci_cont/means
+-mixwfn			/home/aqom/sphinx-source/indo/model_parameters/indo.ci_cont/mixture_weights
+-mmie		no	no
+-oaccumdir		
+-regmatfn		
+-tiedvar	no	no
+-tmatfn			/home/aqom/sphinx-source/indo/model_parameters/indo.ci_cont/transition_matrices
+-varfn			/home/aqom/sphinx-source/indo/model_parameters/indo.ci_cont/variances
+
+INFO: main.c(207): Reading and accumulating counts from /home/aqom/sphinx-source/indo/bwaccumdir/indo_buff_1
+INFO: s3mixw_io.c(117): Read /home/aqom/sphinx-source/indo/bwaccumdir/indo_buff_1/mixw_counts [45x1x1 array]
+INFO: s3tmat_io.c(118): Read /home/aqom/sphinx-source/indo/bwaccumdir/indo_buff_1/tmat_counts [15x3x4 array]
+INFO: s3gau_io.c(386): Read /home/aqom/sphinx-source/indo/bwaccumdir/indo_buff_1/gauden_counts with means with vars (2pass) [45x1x1 vector arrays]
+INFO: main.c(321): -2passvar yes
+INFO: main.c(391): Normalizing mean for n_mgau= 45, n_stream= 1, n_density= 1
+INFO: main.c(414): Normalizing var
+INFO: s3mixw_io.c(233): Wrote /home/aqom/sphinx-source/indo/model_parameters/indo.ci_cont/mixture_weights [45x1x1 array]
+INFO: s3tmat_io.c(176): Wrote /home/aqom/sphinx-source/indo/model_parameters/indo.ci_cont/transition_matrices [15x3x4 array]
+INFO: s3gau_io.c(228): Wrote /home/aqom/sphinx-source/indo/model_parameters/indo.ci_cont/means [45x1x1 array]
+INFO: s3gau_io.c(228): Wrote /home/aqom/sphinx-source/indo/model_parameters/indo.ci_cont/variances [45x1x1 array]
+Sat Aug 11 10:43:17 2018
+Current Overall Likelihood Per Frame = -155.690354698195
+Convergence ratio = 16.8001244555076

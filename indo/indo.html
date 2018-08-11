@@ -148,3 +148,683 @@ span.status {
 <p class='warning'>WARNING: This phone (ER) occurs in the phonelist (/home/aqom/sphinx-source/indo/etc/indo.phone), but not in any word in the transcription (/home/aqom/sphinx-source/indo/etc/indo_train.transcription)</p>
 <p class='warning'>WARNING: This phone (﻿AA) occurs in the phonelist (/home/aqom/sphinx-source/indo/etc/indo.phone), but not in any word in the transcription (/home/aqom/sphinx-source/indo/etc/indo_train.transcription)</p>
 <span class='status FAILED'>FAILED</span>
+<hr>
+<h3>MODULE: 000 Computing feature from audio files	(2018-08-11 08:54)</h3>
+<p class='audio files'>Extracting features from  segments starting at  (part 1 of 1) </p>
+<p class='result'>sphinx_fe <a href="file:///home/aqom/sphinx-source/indo/logdir/000.comp_feat/indo.train-1-1.log">Log File</a></p><p class='error'>ERROR: This step had 7 ERROR messages and 0 WARNING messages.  Please check the log file for details.</p>
+<span class='status completed'>completed</span>
+<p class='audio files'>Extracting features from  segments starting at  (part 1 of 1) </p>
+<p class='result'>sphinx_fe <a href="file:///home/aqom/sphinx-source/indo/logdir/000.comp_feat/indo.test-1-1.log">Log File</a></p><p class='error'>ERROR: This step had 7 ERROR messages and 0 WARNING messages.  Please check the log file for details.</p>
+<span class='status completed'>completed</span>
+<p>Feature extraction is done</p>
+<hr>
+<h3>MODULE: 00 verify training files	(2018-08-11 08:54)</h3>
+<p class='phase'>Phase 1: Checking to see if the dict and filler dict agrees with the phonelist file.</p>
+<p class='result'>Found 9 words using 15 phones</p>
+<p class='warning'>WARNING: This phone (AA) occurs in the dictionary (/home/aqom/sphinx-source/indo/etc/indo.dic), but not in the phonelist (/home/aqom/sphinx-source/indo/etc/indo.phone)</p>
+<p class='warning'>WARNING: This phone (IY) occurs in the dictionary (/home/aqom/sphinx-source/indo/etc/indo.dic), but not in the phonelist (/home/aqom/sphinx-source/indo/etc/indo.phone)</p>
+<p class='warning'>WARNING: This phone (﻿AA) occurs in the phonelist (/home/aqom/sphinx-source/indo/etc/indo.phone), but not in the dictionary (/home/aqom/sphinx-source/indo/etc/indo.dic)</p>
+<span class='status passed'>passed</span>
+<p class='phase'>Phase 2: Checking to make sure there are not duplicate entries in the dictionary</p>
+<span class='status passed'>passed</span>
+<p class='phase'>Phase 3: Check general format for the fileids file; utterance length (must be positive); files exist</p>
+<p class='warning'>WARNING: Error in '/home/aqom/sphinx-source/indo/etc/indo_train.fileids', the feature file '/home/aqom/sphinx-source/indo/feat/Suara1/indo2_1.mfc' does not exist, or is empty</p>
+<p class='warning'>WARNING: Error in '/home/aqom/sphinx-source/indo/etc/indo_train.fileids', the feature file '/home/aqom/sphinx-source/indo/feat/Suara1/indo3_1.mfc' does not exist, or is empty</p>
+<p class='warning'>WARNING: Error in '/home/aqom/sphinx-source/indo/etc/indo_train.fileids', the feature file '/home/aqom/sphinx-source/indo/feat/Suara1/indo4_1.mfc' does not exist, or is empty</p>
+<p class='warning'>WARNING: Error in '/home/aqom/sphinx-source/indo/etc/indo_train.fileids', the feature file '/home/aqom/sphinx-source/indo/feat/Suara1/indo5_1.mfc' does not exist, or is empty</p>
+<p class='warning'>WARNING: Error in '/home/aqom/sphinx-source/indo/etc/indo_train.fileids', the feature file '/home/aqom/sphinx-source/indo/feat/Suara1/indo6_1.mfc' does not exist, or is empty</p>
+<p class='warning'>WARNING: Error in '/home/aqom/sphinx-source/indo/etc/indo_train.fileids', the feature file '/home/aqom/sphinx-source/indo/feat/Suara1/indo7_1.mfc' does not exist, or is empty</p>
+<p class='warning'>WARNING: Error in '/home/aqom/sphinx-source/indo/etc/indo_train.fileids', the feature file '/home/aqom/sphinx-source/indo/feat/Suara1/indo8_1.mfc' does not exist, or is empty</p>
+<span class='status FAILED'>FAILED</span>
+<p class='phase'>Phase 4: Checking number of lines in the transcript file should match lines in fileids file</p>
+<span class='status passed'>passed</span>
+<p class='phase'>Phase 5: Determine amount of training data, see if n_tied_states seems reasonable.</p>
+<p class='result'>Estimated Total Hours Training: 0.000487393162393163</p>
+<p class='result'>This is a small amount of data, no comment at this time</p>
+<span class='status WARNING'>WARNING</span>
+<p class='phase'>Phase 6: Checking that all the words in the transcript are in the dictionary</p>
+<p class='result'>Words in dictionary: 6</p>
+<p class='result'>Words in filler dictionary: 3</p>
+<p class='warning'>WARNING: This word: <s> was in the transcript file, but is not in the dictionary (<s> BUKA PROGRAM </s> ). Do cases match?</p>
+<p class='warning'>WARNING: This word: <s> was in the transcript file, but is not in the dictionary (<s> TUTUP PROGRAM </s> ). Do cases match?</p>
+<p class='warning'>WARNING: This word: <s> was in the transcript file, but is not in the dictionary (<s> BUKA BROWSER </s> ). Do cases match?</p>
+<p class='warning'>WARNING: This word: BROWSER was in the transcript file, but is not in the dictionary (<s> BUKA BROWSER </s> ). Do cases match?</p>
+<p class='warning'>WARNING: This word: <s> was in the transcript file, but is not in the dictionary (<s> TUTUP BROWSER </s> ). Do cases match?</p>
+<p class='warning'>WARNING: This word: BROWSER was in the transcript file, but is not in the dictionary (<s> TUTUP BROWSER </s> ). Do cases match?</p>
+<p class='warning'>WARNING: This word: <s> was in the transcript file, but is not in the dictionary (<s> BUKA KAMERA </s> ). Do cases match?</p>
+<p class='warning'>WARNING: This word: <s> was in the transcript file, but is not in the dictionary (<s> TUTUP KAMERA </s> ). Do cases match?</p>
+<p class='warning'>WARNING: This word: <s> was in the transcript file, but is not in the dictionary (<s> BUKA MUSIK </s> ). Do cases match?</p>
+<p class='warning'>WARNING: This word: <s> was in the transcript file, but is not in the dictionary (<s> TUTUP MUSIK </s> ). Do cases match?</p>
+<span class='status FAILED'>FAILED</span>
+<p class='phase'>Phase 7: Checking that all the phones in the transcript are in the phonelist, and all phones in the phonelist appear at least once</p>
+<p class='warning'>WARNING: This phone (ER) occurs in the phonelist (/home/aqom/sphinx-source/indo/etc/indo.phone), but not in any word in the transcription (/home/aqom/sphinx-source/indo/etc/indo_train.transcription)</p>
+<p class='warning'>WARNING: This phone (﻿AA) occurs in the phonelist (/home/aqom/sphinx-source/indo/etc/indo.phone), but not in any word in the transcription (/home/aqom/sphinx-source/indo/etc/indo_train.transcription)</p>
+<span class='status FAILED'>FAILED</span>
+<hr>
+<h3>MODULE: 000 Computing feature from audio files	(2018-08-11 08:59)</h3>
+<p class='audio files'>Extracting features from  segments starting at  (part 1 of 1) </p>
+<p class='result'>sphinx_fe <a href="file:///home/aqom/sphinx-source/indo/logdir/000.comp_feat/indo.train-1-1.log">Log File</a></p><span class='status completed'>completed</span>
+<p class='audio files'>Extracting features from  segments starting at  (part 1 of 1) </p>
+<p class='result'>sphinx_fe <a href="file:///home/aqom/sphinx-source/indo/logdir/000.comp_feat/indo.test-1-1.log">Log File</a></p><span class='status completed'>completed</span>
+<p>Feature extraction is done</p>
+<hr>
+<h3>MODULE: 00 verify training files	(2018-08-11 08:59)</h3>
+<p class='phase'>Phase 1: Checking to see if the dict and filler dict agrees with the phonelist file.</p>
+<p class='result'>Found 9 words using 15 phones</p>
+<p class='warning'>WARNING: This phone (AA) occurs in the dictionary (/home/aqom/sphinx-source/indo/etc/indo.dic), but not in the phonelist (/home/aqom/sphinx-source/indo/etc/indo.phone)</p>
+<p class='warning'>WARNING: This phone (IY) occurs in the dictionary (/home/aqom/sphinx-source/indo/etc/indo.dic), but not in the phonelist (/home/aqom/sphinx-source/indo/etc/indo.phone)</p>
+<p class='warning'>WARNING: This phone (﻿AA) occurs in the phonelist (/home/aqom/sphinx-source/indo/etc/indo.phone), but not in the dictionary (/home/aqom/sphinx-source/indo/etc/indo.dic)</p>
+<span class='status passed'>passed</span>
+<p class='phase'>Phase 2: Checking to make sure there are not duplicate entries in the dictionary</p>
+<span class='status passed'>passed</span>
+<p class='phase'>Phase 3: Check general format for the fileids file; utterance length (must be positive); files exist</p>
+<span class='status passed'>passed</span>
+<p class='phase'>Phase 4: Checking number of lines in the transcript file should match lines in fileids file</p>
+<span class='status passed'>passed</span>
+<p class='phase'>Phase 5: Determine amount of training data, see if n_tied_states seems reasonable.</p>
+<p class='result'>Estimated Total Hours Training: 0.00390555555555556</p>
+<p class='result'>This is a small amount of data, no comment at this time</p>
+<span class='status WARNING'>WARNING</span>
+<p class='phase'>Phase 6: Checking that all the words in the transcript are in the dictionary</p>
+<p class='result'>Words in dictionary: 6</p>
+<p class='result'>Words in filler dictionary: 3</p>
+<p class='warning'>WARNING: This word: <s> was in the transcript file, but is not in the dictionary (<s> BUKA PROGRAM </s> ). Do cases match?</p>
+<p class='warning'>WARNING: This word: <s> was in the transcript file, but is not in the dictionary (<s> TUTUP PROGRAM </s> ). Do cases match?</p>
+<p class='warning'>WARNING: This word: <s> was in the transcript file, but is not in the dictionary (<s> BUKA BROWSER </s> ). Do cases match?</p>
+<p class='warning'>WARNING: This word: BROWSER was in the transcript file, but is not in the dictionary (<s> BUKA BROWSER </s> ). Do cases match?</p>
+<p class='warning'>WARNING: This word: <s> was in the transcript file, but is not in the dictionary (<s> TUTUP BROWSER </s> ). Do cases match?</p>
+<p class='warning'>WARNING: This word: BROWSER was in the transcript file, but is not in the dictionary (<s> TUTUP BROWSER </s> ). Do cases match?</p>
+<p class='warning'>WARNING: This word: <s> was in the transcript file, but is not in the dictionary (<s> BUKA KAMERA </s> ). Do cases match?</p>
+<p class='warning'>WARNING: This word: <s> was in the transcript file, but is not in the dictionary (<s> TUTUP KAMERA </s> ). Do cases match?</p>
+<p class='warning'>WARNING: This word: <s> was in the transcript file, but is not in the dictionary (<s> BUKA MUSIK </s> ). Do cases match?</p>
+<p class='warning'>WARNING: This word: <s> was in the transcript file, but is not in the dictionary (<s> TUTUP MUSIK </s> ). Do cases match?</p>
+<span class='status FAILED'>FAILED</span>
+<p class='phase'>Phase 7: Checking that all the phones in the transcript are in the phonelist, and all phones in the phonelist appear at least once</p>
+<p class='warning'>WARNING: This phone (ER) occurs in the phonelist (/home/aqom/sphinx-source/indo/etc/indo.phone), but not in any word in the transcription (/home/aqom/sphinx-source/indo/etc/indo_train.transcription)</p>
+<p class='warning'>WARNING: This phone (﻿AA) occurs in the phonelist (/home/aqom/sphinx-source/indo/etc/indo.phone), but not in any word in the transcription (/home/aqom/sphinx-source/indo/etc/indo_train.transcription)</p>
+<span class='status FAILED'>FAILED</span>
+<hr>
+<h3>MODULE: 000 Computing feature from audio files	(2018-08-11 09:09)</h3>
+<p class='audio files'>Extracting features from  segments starting at  (part 1 of 1) </p>
+<p class='result'>sphinx_fe <a href="file:///home/aqom/sphinx-source/indo/logdir/000.comp_feat/indo.train-1-1.log">Log File</a></p><span class='status completed'>completed</span>
+<p class='audio files'>Extracting features from  segments starting at  (part 1 of 1) </p>
+<p class='result'>sphinx_fe <a href="file:///home/aqom/sphinx-source/indo/logdir/000.comp_feat/indo.test-1-1.log">Log File</a></p><span class='status completed'>completed</span>
+<p>Feature extraction is done</p>
+<hr>
+<h3>MODULE: 00 verify training files	(2018-08-11 09:09)</h3>
+<p class='phase'>Phase 1: Checking to see if the dict and filler dict agrees with the phonelist file.</p>
+<p class='result'>Found 9 words using 15 phones</p>
+<span class='status passed'>passed</span>
+<p class='phase'>Phase 2: Checking to make sure there are not duplicate entries in the dictionary</p>
+<span class='status passed'>passed</span>
+<p class='phase'>Phase 3: Check general format for the fileids file; utterance length (must be positive); files exist</p>
+<span class='status passed'>passed</span>
+<p class='phase'>Phase 4: Checking number of lines in the transcript file should match lines in fileids file</p>
+<span class='status passed'>passed</span>
+<p class='phase'>Phase 5: Determine amount of training data, see if n_tied_states seems reasonable.</p>
+<p class='result'>Estimated Total Hours Training: 0.00390555555555556</p>
+<p class='result'>This is a small amount of data, no comment at this time</p>
+<span class='status WARNING'>WARNING</span>
+<p class='phase'>Phase 6: Checking that all the words in the transcript are in the dictionary</p>
+<p class='result'>Words in dictionary: 6</p>
+<p class='result'>Words in filler dictionary: 3</p>
+<p class='warning'>WARNING: This word: <s> was in the transcript file, but is not in the dictionary (<s> BUKA PROGRAM </s> ). Do cases match?</p>
+<p class='warning'>WARNING: This word: <s> was in the transcript file, but is not in the dictionary (<s> TUTUP PROGRAM </s> ). Do cases match?</p>
+<p class='warning'>WARNING: This word: <s> was in the transcript file, but is not in the dictionary (<s> BUKA BROWSER </s> ). Do cases match?</p>
+<p class='warning'>WARNING: This word: <s> was in the transcript file, but is not in the dictionary (<s> TUTUP BROWSER </s> ). Do cases match?</p>
+<p class='warning'>WARNING: This word: <s> was in the transcript file, but is not in the dictionary (<s> BUKA KAMERA </s> ). Do cases match?</p>
+<p class='warning'>WARNING: This word: <s> was in the transcript file, but is not in the dictionary (<s> TUTUP KAMERA </s> ). Do cases match?</p>
+<p class='warning'>WARNING: This word: <s> was in the transcript file, but is not in the dictionary (<s> BUKA MUSIK </s> ). Do cases match?</p>
+<p class='warning'>WARNING: This word: <s> was in the transcript file, but is not in the dictionary (<s> TUTUP MUSIK </s> ). Do cases match?</p>
+<span class='status FAILED'>FAILED</span>
+<p class='phase'>Phase 7: Checking that all the phones in the transcript are in the phonelist, and all phones in the phonelist appear at least once</p>
+<span class='status passed'>passed</span>
+<hr>
+<h3>MODULE: 000 Computing feature from audio files	(2018-08-11 09:29)</h3>
+<p class='audio files'>Extracting features from  segments starting at  (part 1 of 1) </p>
+<p class='result'>sphinx_fe <a href="file:///home/aqom/sphinx-source/indo/logdir/000.comp_feat/indo.train-1-1.log">Log File</a></p><span class='status completed'>completed</span>
+<p class='audio files'>Extracting features from  segments starting at  (part 1 of 1) </p>
+<p class='result'>sphinx_fe <a href="file:///home/aqom/sphinx-source/indo/logdir/000.comp_feat/indo.test-1-1.log">Log File</a></p><span class='status completed'>completed</span>
+<p>Feature extraction is done</p>
+<hr>
+<h3>MODULE: 00 verify training files	(2018-08-11 09:29)</h3>
+<p class='phase'>Phase 1: Checking to see if the dict and filler dict agrees with the phonelist file.</p>
+<p class='result'>Found 9 words using 15 phones</p>
+<span class='status passed'>passed</span>
+<p class='phase'>Phase 2: Checking to make sure there are not duplicate entries in the dictionary</p>
+<span class='status passed'>passed</span>
+<p class='phase'>Phase 3: Check general format for the fileids file; utterance length (must be positive); files exist</p>
+<span class='status passed'>passed</span>
+<p class='phase'>Phase 4: Checking number of lines in the transcript file should match lines in fileids file</p>
+<span class='status passed'>passed</span>
+<p class='phase'>Phase 5: Determine amount of training data, see if n_tied_states seems reasonable.</p>
+<p class='result'>Estimated Total Hours Training: 0.00390555555555556</p>
+<p class='result'>This is a small amount of data, no comment at this time</p>
+<span class='status WARNING'>WARNING</span>
+<p class='phase'>Phase 6: Checking that all the words in the transcript are in the dictionary</p>
+<p class='result'>Words in dictionary: 6</p>
+<p class='result'>Words in filler dictionary: 3</p>
+<p class='warning'>WARNING: This word: <s> was in the transcript file, but is not in the dictionary (<s> BUKA PROGRAM </s> ). Do cases match?</p>
+<p class='warning'>WARNING: This word: <s> was in the transcript file, but is not in the dictionary (<s> TUTUP PROGRAM </s> ). Do cases match?</p>
+<p class='warning'>WARNING: This word: <s> was in the transcript file, but is not in the dictionary (<s> BUKA BROWSER </s> ). Do cases match?</p>
+<p class='warning'>WARNING: This word: <s> was in the transcript file, but is not in the dictionary (<s> TUTUP BROWSER </s> ). Do cases match?</p>
+<p class='warning'>WARNING: This word: <s> was in the transcript file, but is not in the dictionary (<s> BUKA KAMERA </s> ). Do cases match?</p>
+<p class='warning'>WARNING: This word: <s> was in the transcript file, but is not in the dictionary (<s> TUTUP KAMERA </s> ). Do cases match?</p>
+<p class='warning'>WARNING: This word: <s> was in the transcript file, but is not in the dictionary (<s> BUKA MUSIK </s> ). Do cases match?</p>
+<p class='warning'>WARNING: This word: <s> was in the transcript file, but is not in the dictionary (<s> TUTUP MUSIK </s> ). Do cases match?</p>
+<span class='status FAILED'>FAILED</span>
+<p class='phase'>Phase 7: Checking that all the phones in the transcript are in the phonelist, and all phones in the phonelist appear at least once</p>
+<span class='status passed'>passed</span>
+<hr>
+<h3>MODULE: 000 Computing feature from audio files	(2018-08-11 09:34)</h3>
+<p class='audio files'>Extracting features from  segments starting at  (part 1 of 1) </p>
+<p class='result'>sphinx_fe <a href="file:///home/aqom/sphinx-source/indo/logdir/000.comp_feat/indo.train-1-1.log">Log File</a></p><span class='status completed'>completed</span>
+<p class='audio files'>Extracting features from  segments starting at  (part 1 of 1) </p>
+<p class='result'>sphinx_fe <a href="file:///home/aqom/sphinx-source/indo/logdir/000.comp_feat/indo.test-1-1.log">Log File</a></p><span class='status completed'>completed</span>
+<p>Feature extraction is done</p>
+<hr>
+<h3>MODULE: 00 verify training files	(2018-08-11 09:34)</h3>
+<p class='phase'>Phase 1: Checking to see if the dict and filler dict agrees with the phonelist file.</p>
+<p class='result'>Found 9 words using 15 phones</p>
+<span class='status passed'>passed</span>
+<p class='phase'>Phase 2: Checking to make sure there are not duplicate entries in the dictionary</p>
+<span class='status passed'>passed</span>
+<p class='phase'>Phase 3: Check general format for the fileids file; utterance length (must be positive); files exist</p>
+<span class='status passed'>passed</span>
+<p class='phase'>Phase 4: Checking number of lines in the transcript file should match lines in fileids file</p>
+<span class='status passed'>passed</span>
+<p class='phase'>Phase 5: Determine amount of training data, see if n_tied_states seems reasonable.</p>
+<p class='result'>Estimated Total Hours Training: 0.00390555555555556</p>
+<p class='result'>This is a small amount of data, no comment at this time</p>
+<span class='status WARNING'>WARNING</span>
+<p class='phase'>Phase 6: Checking that all the words in the transcript are in the dictionary</p>
+<p class='result'>Words in dictionary: 6</p>
+<p class='result'>Words in filler dictionary: 3</p>
+<p class='warning'>WARNING: This word: <s> was in the transcript file, but is not in the dictionary (<s> BUKA PROGRAM </s> ). Do cases match?</p>
+<p class='warning'>WARNING: This word: <s> was in the transcript file, but is not in the dictionary (<s> TUTUP PROGRAM </s> ). Do cases match?</p>
+<p class='warning'>WARNING: This word: <s> was in the transcript file, but is not in the dictionary (<s> BUKA BROWSER </s> ). Do cases match?</p>
+<p class='warning'>WARNING: This word: <s> was in the transcript file, but is not in the dictionary (<s> TUTUP BROWSER </s> ). Do cases match?</p>
+<p class='warning'>WARNING: This word: <s> was in the transcript file, but is not in the dictionary (<s> BUKA KAMERA </s> ). Do cases match?</p>
+<p class='warning'>WARNING: This word: <s> was in the transcript file, but is not in the dictionary (<s> TUTUP KAMERA </s> ). Do cases match?</p>
+<p class='warning'>WARNING: This word: <s> was in the transcript file, but is not in the dictionary (<s> BUKA MUSIK </s> ). Do cases match?</p>
+<p class='warning'>WARNING: This word: <s> was in the transcript file, but is not in the dictionary (<s> TUTUP MUSIK </s> ). Do cases match?</p>
+<span class='status FAILED'>FAILED</span>
+<p class='phase'>Phase 7: Checking that all the phones in the transcript are in the phonelist, and all phones in the phonelist appear at least once</p>
+<span class='status passed'>passed</span>
+<hr>
+<h3>MODULE: 000 Computing feature from audio files	(2018-08-11 09:56)</h3>
+<p class='audio files'>Extracting features from  segments starting at  (part 1 of 1) </p>
+<p class='result'>sphinx_fe <a href="file:///home/aqom/sphinx-source/indo/logdir/000.comp_feat/indo.train-1-1.log">Log File</a></p><span class='status completed'>completed</span>
+<p class='audio files'>Extracting features from  segments starting at  (part 1 of 1) </p>
+<p class='result'>sphinx_fe <a href="file:///home/aqom/sphinx-source/indo/logdir/000.comp_feat/indo.test-1-1.log">Log File</a></p><span class='status completed'>completed</span>
+<p>Feature extraction is done</p>
+<hr>
+<h3>MODULE: 00 verify training files	(2018-08-11 09:56)</h3>
+<p class='phase'>Phase 1: Checking to see if the dict and filler dict agrees with the phonelist file.</p>
+<p class='result'>Found 9 words using 15 phones</p>
+<span class='status passed'>passed</span>
+<p class='phase'>Phase 2: Checking to make sure there are not duplicate entries in the dictionary</p>
+<span class='status passed'>passed</span>
+<p class='phase'>Phase 3: Check general format for the fileids file; utterance length (must be positive); files exist</p>
+<span class='status passed'>passed</span>
+<p class='phase'>Phase 4: Checking number of lines in the transcript file should match lines in fileids file</p>
+<span class='status passed'>passed</span>
+<p class='phase'>Phase 5: Determine amount of training data, see if n_tied_states seems reasonable.</p>
+<p class='result'>Estimated Total Hours Training: 0.00390555555555556</p>
+<p class='result'>This is a small amount of data, no comment at this time</p>
+<span class='status WARNING'>WARNING</span>
+<p class='phase'>Phase 6: Checking that all the words in the transcript are in the dictionary</p>
+<p class='result'>Words in dictionary: 6</p>
+<p class='result'>Words in filler dictionary: 3</p>
+<p class='warning'>WARNING: This word: <s> was in the transcript file, but is not in the dictionary (<s> BUKA PROGRAM </s> ). Do cases match?</p>
+<p class='warning'>WARNING: This word: <s> was in the transcript file, but is not in the dictionary (<s> TUTUP PROGRAM </s> ). Do cases match?</p>
+<p class='warning'>WARNING: This word: <s> was in the transcript file, but is not in the dictionary (<s> BUKA BROWSER </s> ). Do cases match?</p>
+<p class='warning'>WARNING: This word: <s> was in the transcript file, but is not in the dictionary (<s> TUTUP BROWSER </s> ). Do cases match?</p>
+<p class='warning'>WARNING: This word: <s> was in the transcript file, but is not in the dictionary (<s> BUKA KAMERA </s> ). Do cases match?</p>
+<p class='warning'>WARNING: This word: <s> was in the transcript file, but is not in the dictionary (<s> TUTUP KAMERA </s> ). Do cases match?</p>
+<p class='warning'>WARNING: This word: <s> was in the transcript file, but is not in the dictionary (<s> BUKA MUSIK </s> ). Do cases match?</p>
+<p class='warning'>WARNING: This word: <s> was in the transcript file, but is not in the dictionary (<s> TUTUP MUSIK </s> ). Do cases match?</p>
+<span class='status FAILED'>FAILED</span>
+<p class='phase'>Phase 7: Checking that all the phones in the transcript are in the phonelist, and all phones in the phonelist appear at least once</p>
+<span class='status passed'>passed</span>
+<hr>
+<h3>MODULE: 000 Computing feature from audio files	(2018-08-11 09:56)</h3>
+<p class='audio files'>Extracting features from  segments starting at  (part 1 of 1) </p>
+<p class='result'>sphinx_fe <a href="file:///home/aqom/sphinx-source/indo/logdir/000.comp_feat/indo.train-1-1.log">Log File</a></p><span class='status completed'>completed</span>
+<p class='audio files'>Extracting features from  segments starting at  (part 1 of 1) </p>
+<p class='result'>sphinx_fe <a href="file:///home/aqom/sphinx-source/indo/logdir/000.comp_feat/indo.test-1-1.log">Log File</a></p><span class='status completed'>completed</span>
+<p>Feature extraction is done</p>
+<hr>
+<h3>MODULE: 00 verify training files	(2018-08-11 09:56)</h3>
+<p class='phase'>Phase 1: Checking to see if the dict and filler dict agrees with the phonelist file.</p>
+<p class='result'>Found 11 words using 15 phones</p>
+<span class='status passed'>passed</span>
+<p class='phase'>Phase 2: Checking to make sure there are not duplicate entries in the dictionary</p>
+<p class='warning'>WARNING: This word (</s>) has duplicate entries in (/home/aqom/sphinx-source/indo/etc/indo.dic)</p>
+<span class='status FAILED'>FAILED</span>
+<p class='phase'>Phase 3: Check general format for the fileids file; utterance length (must be positive); files exist</p>
+<span class='status passed'>passed</span>
+<p class='phase'>Phase 4: Checking number of lines in the transcript file should match lines in fileids file</p>
+<span class='status passed'>passed</span>
+<p class='phase'>Phase 5: Determine amount of training data, see if n_tied_states seems reasonable.</p>
+<p class='result'>Estimated Total Hours Training: 0.00390555555555556</p>
+<p class='result'>This is a small amount of data, no comment at this time</p>
+<span class='status WARNING'>WARNING</span>
+<p class='phase'>Phase 6: Checking that all the words in the transcript are in the dictionary</p>
+<p class='result'>Words in dictionary: 8</p>
+<p class='result'>Words in filler dictionary: 3</p>
+<span class='status passed'>passed</span>
+<p class='phase'>Phase 7: Checking that all the phones in the transcript are in the phonelist, and all phones in the phonelist appear at least once</p>
+<span class='status passed'>passed</span>
+<hr>
+<h3>MODULE: 000 Computing feature from audio files	(2018-08-11 09:57)</h3>
+<p class='audio files'>Extracting features from  segments starting at  (part 1 of 1) </p>
+<p class='result'>sphinx_fe <a href="file:///home/aqom/sphinx-source/indo/logdir/000.comp_feat/indo.train-1-1.log">Log File</a></p><span class='status completed'>completed</span>
+<p class='audio files'>Extracting features from  segments starting at  (part 1 of 1) </p>
+<p class='result'>sphinx_fe <a href="file:///home/aqom/sphinx-source/indo/logdir/000.comp_feat/indo.test-1-1.log">Log File</a></p><span class='status completed'>completed</span>
+<p>Feature extraction is done</p>
+<hr>
+<h3>MODULE: 00 verify training files	(2018-08-11 09:57)</h3>
+<p class='phase'>Phase 1: Checking to see if the dict and filler dict agrees with the phonelist file.</p>
+<p class='result'>Found 9 words using 15 phones</p>
+<span class='status passed'>passed</span>
+<p class='phase'>Phase 2: Checking to make sure there are not duplicate entries in the dictionary</p>
+<span class='status passed'>passed</span>
+<p class='phase'>Phase 3: Check general format for the fileids file; utterance length (must be positive); files exist</p>
+<span class='status passed'>passed</span>
+<p class='phase'>Phase 4: Checking number of lines in the transcript file should match lines in fileids file</p>
+<span class='status passed'>passed</span>
+<p class='phase'>Phase 5: Determine amount of training data, see if n_tied_states seems reasonable.</p>
+<p class='result'>Estimated Total Hours Training: 0.00390555555555556</p>
+<p class='result'>This is a small amount of data, no comment at this time</p>
+<span class='status WARNING'>WARNING</span>
+<p class='phase'>Phase 6: Checking that all the words in the transcript are in the dictionary</p>
+<p class='result'>Words in dictionary: 6</p>
+<p class='result'>Words in filler dictionary: 3</p>
+<p class='warning'>WARNING: This word: <s> was in the transcript file, but is not in the dictionary (<s> BUKA PROGRAM </s> ). Do cases match?</p>
+<p class='warning'>WARNING: This word: <s> was in the transcript file, but is not in the dictionary (<s> TUTUP PROGRAM </s> ). Do cases match?</p>
+<p class='warning'>WARNING: This word: <s> was in the transcript file, but is not in the dictionary (<s> BUKA BROWSER </s> ). Do cases match?</p>
+<p class='warning'>WARNING: This word: <s> was in the transcript file, but is not in the dictionary (<s> TUTUP BROWSER </s> ). Do cases match?</p>
+<p class='warning'>WARNING: This word: <s> was in the transcript file, but is not in the dictionary (<s> BUKA KAMERA </s> ). Do cases match?</p>
+<p class='warning'>WARNING: This word: <s> was in the transcript file, but is not in the dictionary (<s> TUTUP KAMERA </s> ). Do cases match?</p>
+<p class='warning'>WARNING: This word: <s> was in the transcript file, but is not in the dictionary (<s> BUKA MUSIK </s> ). Do cases match?</p>
+<p class='warning'>WARNING: This word: <s> was in the transcript file, but is not in the dictionary (<s> TUTUP MUSIK </s> ). Do cases match?</p>
+<span class='status FAILED'>FAILED</span>
+<p class='phase'>Phase 7: Checking that all the phones in the transcript are in the phonelist, and all phones in the phonelist appear at least once</p>
+<span class='status passed'>passed</span>
+<hr>
+<h3>MODULE: 000 Computing feature from audio files	(2018-08-11 09:59)</h3>
+<p class='audio files'>Extracting features from  segments starting at  (part 1 of 1) </p>
+<p class='result'>sphinx_fe <a href="file:///home/aqom/sphinx-source/indo/logdir/000.comp_feat/indo.train-1-1.log">Log File</a></p><span class='status completed'>completed</span>
+<p class='audio files'>Extracting features from  segments starting at  (part 1 of 1) </p>
+<p class='result'>sphinx_fe <a href="file:///home/aqom/sphinx-source/indo/logdir/000.comp_feat/indo.test-1-1.log">Log File</a></p><span class='status completed'>completed</span>
+<p>Feature extraction is done</p>
+<hr>
+<h3>MODULE: 00 verify training files	(2018-08-11 09:59)</h3>
+<p class='phase'>Phase 1: Checking to see if the dict and filler dict agrees with the phonelist file.</p>
+<p class='result'>Found 10 words using 15 phones</p>
+<span class='status passed'>passed</span>
+<p class='phase'>Phase 2: Checking to make sure there are not duplicate entries in the dictionary</p>
+<span class='status passed'>passed</span>
+<p class='phase'>Phase 3: Check general format for the fileids file; utterance length (must be positive); files exist</p>
+<span class='status passed'>passed</span>
+<p class='phase'>Phase 4: Checking number of lines in the transcript file should match lines in fileids file</p>
+<span class='status passed'>passed</span>
+<p class='phase'>Phase 5: Determine amount of training data, see if n_tied_states seems reasonable.</p>
+<p class='result'>Estimated Total Hours Training: 0.00390555555555556</p>
+<p class='result'>This is a small amount of data, no comment at this time</p>
+<span class='status WARNING'>WARNING</span>
+<p class='phase'>Phase 6: Checking that all the words in the transcript are in the dictionary</p>
+<p class='result'>Words in dictionary: 7</p>
+<p class='result'>Words in filler dictionary: 3</p>
+<span class='status passed'>passed</span>
+<p class='phase'>Phase 7: Checking that all the phones in the transcript are in the phonelist, and all phones in the phonelist appear at least once</p>
+<span class='status passed'>passed</span>
+<hr>
+<h3>MODULE: 0000 train grapheme-to-phoneme model	(2018-08-11 09:59)</h3>
+<p>Skipped (set $CFG_G2P_MODEL = 'yes' to enable)</p>
+<hr>
+<h3>MODULE: 01 Train LDA transformation	(2018-08-11 09:59)</h3>
+<p>Skipped (set $CFG_LDA_MLLT = 'yes' to enable)</p>
+<hr>
+<h3>MODULE: 02 Train MLLT transformation	(2018-08-11 09:59)</h3>
+<p>Skipped (set $CFG_LDA_MLLT = 'yes' to enable)</p>
+<hr>
+<h3>MODULE: 05 Vector Quantization	(2018-08-11 09:59)</h3>
+<p>Skipped for continuous models</p>
+<hr>
+<h3>MODULE: 10 Training Context Independent models for forced alignment and VTLN	(2018-08-11 09:59)</h3>
+<p>Skipped:  $ST::CFG_FORCEDALIGN set to 'no' in sphinx_train.cfg</p>
+<p>Skipped:  $ST::CFG_VTLN set to 'no' in sphinx_train.cfg</p>
+<hr>
+<h3>MODULE: 11 Force-aligning transcripts	(2018-08-11 09:59)</h3>
+<p>Skipped:  $ST::CFG_FORCEDALIGN set to 'no' in sphinx_train.cfg</p>
+<hr>
+<h3>MODULE: 12 Force-aligning data for VTLN	(2018-08-11 09:59)</h3>
+<p>Skipped:  $ST::CFG_VTLN set to 'no' in sphinx_train.cfg</p>
+<hr>
+<h3>MODULE: 20 Training Context Independent models	(2018-08-11 09:59)</h3>
+<p class='phase'>Phase 1: Cleaning up directories:</p>
+<span class='progress'>	accumulator...</span>
+<span class='progress'>logs...</span>
+<span class='progress'>qmanager...</span>
+<span class='progress'>models...
+</span>
+<span class='status completed'>completed</span>
+<p class='phase'>Phase 2: Flat initialize</p>
+<p class='result'>mk_mdef_gen <a href="file:///home/aqom/sphinx-source/indo/logdir/20.ci_hmm/indo.make_ci_mdef_fromphonelist.log">Log File</a></p><span class='status completed'>completed</span>
+<p class='result'>mk_flat <a href="file:///home/aqom/sphinx-source/indo/logdir/20.ci_hmm/indo.makeflat_cihmm.log">Log File</a></p><span class='status completed'>completed</span>
+<p class='result'>init_gau <a href="file:///home/aqom/sphinx-source/indo/logdir/20.ci_hmm/indo.initmean_cihmm.log">Log File</a></p><span class='status completed'>completed</span>
+<p class='result'>norm <a href="file:///home/aqom/sphinx-source/indo/logdir/20.ci_hmm/indo.normmean_cihmm.log">Log File</a></p><span class='status completed'>completed</span>
+<p class='result'>init_gau <a href="file:///home/aqom/sphinx-source/indo/logdir/20.ci_hmm/indo.initvar_cihmm.log">Log File</a></p><span class='status completed'>completed</span>
+<p class='result'>norm <a href="file:///home/aqom/sphinx-source/indo/logdir/20.ci_hmm/indo.normvar_cihmm.log">Log File</a></p><span class='status completed'>completed</span>
+<p class='result'>cp_parm <a href="file:///home/aqom/sphinx-source/indo/logdir/20.ci_hmm/indo.cpmean_cihmm.log">Log File</a></p><span class='status completed'>completed</span>
+<p class='result'>cp_parm <a href="file:///home/aqom/sphinx-source/indo/logdir/20.ci_hmm/indo.cpvar_cihmm.log">Log File</a></p><span class='status completed'>completed</span>
+<p class='phase'>Phase 3: Forward-Backward</p>
+<p class='result'>Baum welch starting for 1 Gaussian(s), iteration: 1 (1 of 1)</p>
+<p class='result'>bw <a href="file:///home/aqom/sphinx-source/indo/logdir/20.ci_hmm/indo.1.1-1.bw.log">Log File</a></p><span class='status completed'>completed</span>
+<p class='result'>Normalization for iteration: 1</p>
+<p class='result'>norm <a href="file:///home/aqom/sphinx-source/indo/logdir/20.ci_hmm/indo.1.1.norm.log">Log File</a></p><span class='status completed'>completed</span>
+<p class='result'>Current Overall Likelihood Per Frame = -173.706116642959</p>
+<p class='result'>Baum welch starting for 1 Gaussian(s), iteration: 2 (1 of 1)</p>
+<p class='result'>bw <a href="file:///home/aqom/sphinx-source/indo/logdir/20.ci_hmm/indo.1.2-1.bw.log">Log File</a></p><p class='error'>ERROR: This step had 6 ERROR messages and 0 WARNING messages.  Please check the log file for details.</p>
+<span class='status completed'>completed</span>
+<p class='result'>Normalization for iteration: 2</p>
+<p class='result'>norm <a href="file:///home/aqom/sphinx-source/indo/logdir/20.ci_hmm/indo.1.2.norm.log">Log File</a></p><span class='status completed'>completed</span>
+<p class='result'>Current Overall Likelihood Per Frame = -139.79175257732</p>
+<p class='result'>Convergence Ratio = 33.9143640656394</p>
+<p class='result'>Baum welch starting for 1 Gaussian(s), iteration: 3 (1 of 1)</p>
+<p class='result'>bw <a href="file:///home/aqom/sphinx-source/indo/logdir/20.ci_hmm/indo.1.3-1.bw.log">Log File</a></p><p class='error'>ERROR: This step had 4 ERROR messages and 0 WARNING messages.  Please check the log file for details.</p>
+<span class='status completed'>completed</span>
+<p class='result'>Normalization for iteration: 3</p>
+<p class='result'>norm <a href="file:///home/aqom/sphinx-source/indo/logdir/20.ci_hmm/indo.1.3.norm.log">Log File</a></p><span class='status completed'>completed</span>
+<p class='result'>Current Overall Likelihood Per Frame = -118.935775451951</p>
+<p class='result'>Convergence Ratio = 20.8559771253695</p>
+<p class='result'>Baum welch starting for 1 Gaussian(s), iteration: 4 (1 of 1)</p>
+<p class='result'>bw <a href="file:///home/aqom/sphinx-source/indo/logdir/20.ci_hmm/indo.1.4-1.bw.log">Log File</a></p><p class='error'>ERROR: This step had 4 ERROR messages and 0 WARNING messages.  Please check the log file for details.</p>
+<span class='status completed'>completed</span>
+<p class='result'>Normalization for iteration: 4</p>
+<p class='result'>norm <a href="file:///home/aqom/sphinx-source/indo/logdir/20.ci_hmm/indo.1.4.norm.log">Log File</a></p><span class='status completed'>completed</span>
+<p class='result'>Current Overall Likelihood Per Frame = -113.49800190295</p>
+<p class='result'>Convergence Ratio = 5.43777354900143</p>
+<p class='result'>Baum welch starting for 1 Gaussian(s), iteration: 5 (1 of 1)</p>
+<p class='result'>bw <a href="file:///home/aqom/sphinx-source/indo/logdir/20.ci_hmm/indo.1.5-1.bw.log">Log File</a></p><p class='error'>ERROR: This step had 4 ERROR messages and 0 WARNING messages.  Please check the log file for details.</p>
+<span class='status completed'>completed</span>
+<p class='result'>Normalization for iteration: 5</p>
+<p class='result'>norm <a href="file:///home/aqom/sphinx-source/indo/logdir/20.ci_hmm/indo.1.5.norm.log">Log File</a></p><span class='status completed'>completed</span>
+<p class='result'>Current Overall Likelihood Per Frame = -112.032825880114</p>
+<p class='result'>Convergence Ratio = 1.46517602283582</p>
+<p class='result'>Baum welch starting for 1 Gaussian(s), iteration: 6 (1 of 1)</p>
+<p class='result'>bw <a href="file:///home/aqom/sphinx-source/indo/logdir/20.ci_hmm/indo.1.6-1.bw.log">Log File</a></p><p class='error'>ERROR: This step had 4 ERROR messages and 0 WARNING messages.  Please check the log file for details.</p>
+<span class='status completed'>completed</span>
+<p class='result'>Normalization for iteration: 6</p>
+<p class='result'>norm <a href="file:///home/aqom/sphinx-source/indo/logdir/20.ci_hmm/indo.1.6.norm.log">Log File</a></p><span class='status completed'>completed</span>
+<p class='result'>Current Overall Likelihood Per Frame = -111.467174119886</p>
+<p class='result'>Convergence Ratio = 0.565651760228178</p>
+<p class='result'>Baum welch starting for 1 Gaussian(s), iteration: 7 (1 of 1)</p>
+<p class='result'>bw <a href="file:///home/aqom/sphinx-source/indo/logdir/20.ci_hmm/indo.1.7-1.bw.log">Log File</a></p><p class='error'>ERROR: This step had 4 ERROR messages and 0 WARNING messages.  Please check the log file for details.</p>
+<span class='status completed'>completed</span>
+<p class='result'>Normalization for iteration: 7</p>
+<p class='result'>norm <a href="file:///home/aqom/sphinx-source/indo/logdir/20.ci_hmm/indo.1.7.norm.log">Log File</a></p><span class='status completed'>completed</span>
+<p class='result'>Current Overall Likelihood Per Frame = -111.149191246432</p>
+<p class='result'>Convergence Ratio = 0.317982873454028</p>
+<p class='result'>Baum welch starting for 1 Gaussian(s), iteration: 8 (1 of 1)</p>
+<p class='result'>bw <a href="file:///home/aqom/sphinx-source/indo/logdir/20.ci_hmm/indo.1.8-1.bw.log">Log File</a></p><p class='error'>ERROR: This step had 4 ERROR messages and 0 WARNING messages.  Please check the log file for details.</p>
+<span class='status completed'>completed</span>
+<p class='result'>Normalization for iteration: 8</p>
+<p class='result'>norm <a href="file:///home/aqom/sphinx-source/indo/logdir/20.ci_hmm/indo.1.8.norm.log">Log File</a></p><span class='status completed'>completed</span>
+<p class='result'>Current Overall Likelihood Per Frame = -110.761274976213</p>
+<p class='result'>Convergence Ratio = 0.387916270218867</p>
+<p class='result'>Baum welch starting for 1 Gaussian(s), iteration: 9 (1 of 1)</p>
+<p class='result'>bw <a href="file:///home/aqom/sphinx-source/indo/logdir/20.ci_hmm/indo.1.9-1.bw.log">Log File</a></p><p class='error'>ERROR: This step had 4 ERROR messages and 0 WARNING messages.  Please check the log file for details.</p>
+<span class='status completed'>completed</span>
+<p class='result'>Normalization for iteration: 9</p>
+<p class='result'>norm <a href="file:///home/aqom/sphinx-source/indo/logdir/20.ci_hmm/indo.1.9.norm.log">Log File</a></p><span class='status completed'>completed</span>
+<p class='result'>Current Overall Likelihood Per Frame = -110.700570884872</p>
+<p class='result'>Training completed after 9 iterations</p>
+<p>Skipped (set $CFG_CD_TRAIN = 'yes' to enable)</p>
+<p>Skipped (set $CFG_CD_TRAIN = 'yes' to enable)</p>
+<p>Skipped (set $CFG_CD_TRAIN = 'yes' to enable)</p>
+<p>Skipped (set $CFG_CD_TRAIN = 'yes' to enable)</p>
+<hr>
+<h3>MODULE: 60 Lattice Generation	(2018-08-11 09:59)</h3>
+<p>Skipped:  $ST::CFG_MMIE set to 'no' in sphinx_train.cfg</p>
+<hr>
+<h3>MODULE: 61 Lattice Pruning	(2018-08-11 09:59)</h3>
+<p>Skipped:  $ST::CFG_MMIE set to 'no' in sphinx_train.cfg</p>
+<hr>
+<h3>MODULE: 62 Lattice Format Conversion	(2018-08-11 09:59)</h3>
+<p>Skipped:  $ST::CFG_MMIE set to 'no' in sphinx_train.cfg</p>
+<hr>
+<h3>MODULE: 65 MMIE Training	(2018-08-11 09:59)</h3>
+<p>Skipped:  $ST::CFG_MMIE set to 'no' in sphinx_train.cfg</p>
+<hr>
+<h3>MODULE: 90 deleted interpolation	(2018-08-11 09:59)</h3>
+<p>Skipped for continuous models</p>
+<hr>
+<h3>MODULE: DECODE Decoding using models previously trained	(2018-08-11 09:59)</h3>
+<p class='result'>Decoding 8 segments starting at 0 (part 1 of 1) </p>
+<p class='result'>pocketsphinx_batch <a href="file:///home/aqom/sphinx-source/indo/logdir/decode/indo-1-1.log">Log File</a></p><p class='error'>ERROR: FATAL: "batch.c", line 822: PocketSphinx decoder init failed</p>
+<p class='error'>ERROR: This step had 1 ERROR messages and 0 WARNING messages.  Please check the log file for details.</p>
+<span class='status FAILED'>FAILED</span>
+<p class='error'>ERROR: Failed to start pocketsphinx_batch</p>
+<p>        Aligning results to find error rate</p>
+<hr>
+<h3>MODULE: 000 Computing feature from audio files	(2018-08-11 10:43)</h3>
+<p class='audio files'>Extracting features from  segments starting at  (part 1 of 1) </p>
+<p class='result'>sphinx_fe <a href="file:///home/aqom/sphinx-source/indo/logdir/000.comp_feat/indo.train-1-1.log">Log File</a></p><span class='status completed'>completed</span>
+<p class='audio files'>Extracting features from  segments starting at  (part 1 of 1) </p>
+<p class='result'>sphinx_fe <a href="file:///home/aqom/sphinx-source/indo/logdir/000.comp_feat/indo.test-1-1.log">Log File</a></p><span class='status completed'>completed</span>
+<p>Feature extraction is done</p>
+<hr>
+<h3>MODULE: 00 verify training files	(2018-08-11 10:43)</h3>
+<p class='phase'>Phase 1: Checking to see if the dict and filler dict agrees with the phonelist file.</p>
+<p class='result'>Found 10 words using 15 phones</p>
+<span class='status passed'>passed</span>
+<p class='phase'>Phase 2: Checking to make sure there are not duplicate entries in the dictionary</p>
+<span class='status passed'>passed</span>
+<p class='phase'>Phase 3: Check general format for the fileids file; utterance length (must be positive); files exist</p>
+<span class='status passed'>passed</span>
+<p class='phase'>Phase 4: Checking number of lines in the transcript file should match lines in fileids file</p>
+<span class='status passed'>passed</span>
+<p class='phase'>Phase 5: Determine amount of training data, see if n_tied_states seems reasonable.</p>
+<p class='result'>Estimated Total Hours Training: 0.00446388888888889</p>
+<p class='result'>This is a small amount of data, no comment at this time</p>
+<span class='status WARNING'>WARNING</span>
+<p class='phase'>Phase 6: Checking that all the words in the transcript are in the dictionary</p>
+<p class='result'>Words in dictionary: 7</p>
+<p class='result'>Words in filler dictionary: 3</p>
+<span class='status passed'>passed</span>
+<p class='phase'>Phase 7: Checking that all the phones in the transcript are in the phonelist, and all phones in the phonelist appear at least once</p>
+<span class='status passed'>passed</span>
+<hr>
+<h3>MODULE: 0000 train grapheme-to-phoneme model	(2018-08-11 10:43)</h3>
+<p>Skipped (set $CFG_G2P_MODEL = 'yes' to enable)</p>
+<hr>
+<h3>MODULE: 01 Train LDA transformation	(2018-08-11 10:43)</h3>
+<p>Skipped (set $CFG_LDA_MLLT = 'yes' to enable)</p>
+<hr>
+<h3>MODULE: 02 Train MLLT transformation	(2018-08-11 10:43)</h3>
+<p>Skipped (set $CFG_LDA_MLLT = 'yes' to enable)</p>
+<hr>
+<h3>MODULE: 05 Vector Quantization	(2018-08-11 10:43)</h3>
+<p>Skipped for continuous models</p>
+<hr>
+<h3>MODULE: 10 Training Context Independent models for forced alignment and VTLN	(2018-08-11 10:43)</h3>
+<p>Skipped:  $ST::CFG_FORCEDALIGN set to 'no' in sphinx_train.cfg</p>
+<p>Skipped:  $ST::CFG_VTLN set to 'no' in sphinx_train.cfg</p>
+<hr>
+<h3>MODULE: 11 Force-aligning transcripts	(2018-08-11 10:43)</h3>
+<p>Skipped:  $ST::CFG_FORCEDALIGN set to 'no' in sphinx_train.cfg</p>
+<hr>
+<h3>MODULE: 12 Force-aligning data for VTLN	(2018-08-11 10:43)</h3>
+<p>Skipped:  $ST::CFG_VTLN set to 'no' in sphinx_train.cfg</p>
+<hr>
+<h3>MODULE: 20 Training Context Independent models	(2018-08-11 10:43)</h3>
+<p class='phase'>Phase 1: Cleaning up directories:</p>
+<span class='progress'>	accumulator...</span>
+<span class='progress'>logs...</span>
+<span class='progress'>qmanager...</span>
+<span class='progress'>models...
+</span>
+<span class='status completed'>completed</span>
+<p class='phase'>Phase 2: Flat initialize</p>
+<p class='result'>mk_mdef_gen <a href="file:///home/aqom/sphinx-source/indo/logdir/20.ci_hmm/indo.make_ci_mdef_fromphonelist.log">Log File</a></p><span class='status completed'>completed</span>
+<p class='result'>mk_flat <a href="file:///home/aqom/sphinx-source/indo/logdir/20.ci_hmm/indo.makeflat_cihmm.log">Log File</a></p><span class='status completed'>completed</span>
+<p class='result'>init_gau <a href="file:///home/aqom/sphinx-source/indo/logdir/20.ci_hmm/indo.initmean_cihmm.log">Log File</a></p><span class='status completed'>completed</span>
+<p class='result'>norm <a href="file:///home/aqom/sphinx-source/indo/logdir/20.ci_hmm/indo.normmean_cihmm.log">Log File</a></p><span class='status completed'>completed</span>
+<p class='result'>init_gau <a href="file:///home/aqom/sphinx-source/indo/logdir/20.ci_hmm/indo.initvar_cihmm.log">Log File</a></p><span class='status completed'>completed</span>
+<p class='result'>norm <a href="file:///home/aqom/sphinx-source/indo/logdir/20.ci_hmm/indo.normvar_cihmm.log">Log File</a></p><span class='status completed'>completed</span>
+<p class='result'>cp_parm <a href="file:///home/aqom/sphinx-source/indo/logdir/20.ci_hmm/indo.cpmean_cihmm.log">Log File</a></p><span class='status completed'>completed</span>
+<p class='result'>cp_parm <a href="file:///home/aqom/sphinx-source/indo/logdir/20.ci_hmm/indo.cpvar_cihmm.log">Log File</a></p><span class='status completed'>completed</span>
+<p class='phase'>Phase 3: Forward-Backward</p>
+<p class='result'>Baum welch starting for 1 Gaussian(s), iteration: 1 (1 of 1)</p>
+<p class='result'>bw <a href="file:///home/aqom/sphinx-source/indo/logdir/20.ci_hmm/indo.1.1-1.bw.log">Log File</a></p><span class='status completed'>completed</span>
+<p class='result'>Normalization for iteration: 1</p>
+<p class='result'>norm <a href="file:///home/aqom/sphinx-source/indo/logdir/20.ci_hmm/indo.1.1.norm.log">Log File</a></p><span class='status completed'>completed</span>
+<p class='result'>Current Overall Likelihood Per Frame = -173.353764779091</p>
+<p class='result'>Baum welch starting for 1 Gaussian(s), iteration: 2 (1 of 1)</p>
+<p class='result'>bw <a href="file:///home/aqom/sphinx-source/indo/logdir/20.ci_hmm/indo.1.2-1.bw.log">Log File</a></p><span class='status completed'>completed</span>
+<p class='result'>Normalization for iteration: 2</p>
+<p class='result'>norm <a href="file:///home/aqom/sphinx-source/indo/logdir/20.ci_hmm/indo.1.2.norm.log">Log File</a></p><span class='status completed'>completed</span>
+<p class='result'>Current Overall Likelihood Per Frame = -172.490479153703</p>
+<p class='result'>Convergence Ratio = 0.863285625388443</p>
+<p class='result'>Baum welch starting for 1 Gaussian(s), iteration: 3 (1 of 1)</p>
+<p class='result'>bw <a href="file:///home/aqom/sphinx-source/indo/logdir/20.ci_hmm/indo.1.3-1.bw.log">Log File</a></p><span class='status completed'>completed</span>
+<p class='result'>Normalization for iteration: 3</p>
+<p class='result'>norm <a href="file:///home/aqom/sphinx-source/indo/logdir/20.ci_hmm/indo.1.3.norm.log">Log File</a></p><span class='status completed'>completed</span>
+<p class='result'>Current Overall Likelihood Per Frame = -155.690354698195</p>
+<p class='result'>Convergence Ratio = 16.8001244555076</p>
+<p class='result'>Baum welch starting for 1 Gaussian(s), iteration: 4 (1 of 1)</p>
+<p class='result'>bw <a href="file:///home/aqom/sphinx-source/indo/logdir/20.ci_hmm/indo.1.4-1.bw.log">Log File</a></p><span class='status completed'>completed</span>
+<p class='result'>Normalization for iteration: 4</p>
+<p class='result'>norm <a href="file:///home/aqom/sphinx-source/indo/logdir/20.ci_hmm/indo.1.4.norm.log">Log File</a></p><span class='status completed'>completed</span>
+<p class='result'>Current Overall Likelihood Per Frame = -151.639452395769</p>
+<p class='result'>Convergence Ratio = 4.05090230242646</p>
+<p class='result'>Baum welch starting for 1 Gaussian(s), iteration: 5 (1 of 1)</p>
+<p class='result'>bw <a href="file:///home/aqom/sphinx-source/indo/logdir/20.ci_hmm/indo.1.5-1.bw.log">Log File</a></p><span class='status completed'>completed</span>
+<p class='result'>Normalization for iteration: 5</p>
+<p class='result'>norm <a href="file:///home/aqom/sphinx-source/indo/logdir/20.ci_hmm/indo.1.5.norm.log">Log File</a></p><span class='status completed'>completed</span>
+<p class='result'>Current Overall Likelihood Per Frame = -150.526135656503</p>
+<p class='result'>Convergence Ratio = 1.11331673926622</p>
+<p class='result'>Baum welch starting for 1 Gaussian(s), iteration: 6 (1 of 1)</p>
+<p class='result'>bw <a href="file:///home/aqom/sphinx-source/indo/logdir/20.ci_hmm/indo.1.6-1.bw.log">Log File</a></p><span class='status completed'>completed</span>
+<p class='result'>Normalization for iteration: 6</p>
+<p class='result'>norm <a href="file:///home/aqom/sphinx-source/indo/logdir/20.ci_hmm/indo.1.6.norm.log">Log File</a></p><span class='status completed'>completed</span>
+<p class='result'>Current Overall Likelihood Per Frame = -150.233727442439</p>
+<p class='result'>Convergence Ratio = 0.292408214063641</p>
+<p class='result'>Baum welch starting for 1 Gaussian(s), iteration: 7 (1 of 1)</p>
+<p class='result'>bw <a href="file:///home/aqom/sphinx-source/indo/logdir/20.ci_hmm/indo.1.7-1.bw.log">Log File</a></p><span class='status completed'>completed</span>
+<p class='result'>Normalization for iteration: 7</p>
+<p class='result'>norm <a href="file:///home/aqom/sphinx-source/indo/logdir/20.ci_hmm/indo.1.7.norm.log">Log File</a></p><span class='status completed'>completed</span>
+<p class='result'>Current Overall Likelihood Per Frame = -150.078158058494</p>
+<p class='result'>Convergence Ratio = 0.155569383944908</p>
+<p class='result'>Baum welch starting for 1 Gaussian(s), iteration: 8 (1 of 1)</p>
+<p class='result'>bw <a href="file:///home/aqom/sphinx-source/indo/logdir/20.ci_hmm/indo.1.8-1.bw.log">Log File</a></p><span class='status completed'>completed</span>
+<p class='result'>Normalization for iteration: 8</p>
+<p class='result'>norm <a href="file:///home/aqom/sphinx-source/indo/logdir/20.ci_hmm/indo.1.8.norm.log">Log File</a></p><span class='status completed'>completed</span>
+<p class='result'>Current Overall Likelihood Per Frame = -150.009085252022</p>
+<p class='result'>Training completed after 8 iterations</p>
+<p>Skipped (set $CFG_CD_TRAIN = 'yes' to enable)</p>
+<p>Skipped (set $CFG_CD_TRAIN = 'yes' to enable)</p>
+<p>Skipped (set $CFG_CD_TRAIN = 'yes' to enable)</p>
+<p>Skipped (set $CFG_CD_TRAIN = 'yes' to enable)</p>
+<hr>
+<h3>MODULE: 60 Lattice Generation	(2018-08-11 10:43)</h3>
+<p>Skipped:  $ST::CFG_MMIE set to 'no' in sphinx_train.cfg</p>
+<hr>
+<h3>MODULE: 61 Lattice Pruning	(2018-08-11 10:43)</h3>
+<p>Skipped:  $ST::CFG_MMIE set to 'no' in sphinx_train.cfg</p>
+<hr>
+<h3>MODULE: 62 Lattice Format Conversion	(2018-08-11 10:43)</h3>
+<p>Skipped:  $ST::CFG_MMIE set to 'no' in sphinx_train.cfg</p>
+<hr>
+<h3>MODULE: 65 MMIE Training	(2018-08-11 10:43)</h3>
+<p>Skipped:  $ST::CFG_MMIE set to 'no' in sphinx_train.cfg</p>
+<hr>
+<h3>MODULE: 90 deleted interpolation	(2018-08-11 10:43)</h3>
+<p>Skipped for continuous models</p>
+<hr>
+<h3>MODULE: DECODE Decoding using models previously trained	(2018-08-11 10:43)</h3>
+<p class='result'>Decoding 8 segments starting at 0 (part 1 of 1) </p>
+<p class='result'>pocketsphinx_batch <a href="file:///home/aqom/sphinx-source/indo/logdir/decode/indo-1-1.log">Log File</a></p><p class='error'>ERROR: FATAL: "batch.c", line 822: PocketSphinx decoder init failed</p>
+<p class='error'>ERROR: This step had 1 ERROR messages and 0 WARNING messages.  Please check the log file for details.</p>
+<span class='status FAILED'>FAILED</span>
+<p class='error'>ERROR: Failed to start pocketsphinx_batch</p>
+<p>        Aligning results to find error rate</p>
+<hr>
+<h3>MODULE: 000 Computing feature from audio files	(2018-08-11 10:45)</h3>
+<p class='audio files'>Extracting features from  segments starting at  (part 1 of 1) </p>
+<p class='result'>sphinx_fe <a href="file:///home/aqom/sphinx-source/indo/logdir/000.comp_feat/indo.train-1-1.log">Log File</a></p><span class='status completed'>completed</span>
+<p class='audio files'>Extracting features from  segments starting at  (part 1 of 1) </p>
+<p class='result'>sphinx_fe <a href="file:///home/aqom/sphinx-source/indo/logdir/000.comp_feat/indo.test-1-1.log">Log File</a></p><span class='status completed'>completed</span>
+<p>Feature extraction is done</p>
+<hr>
+<h3>MODULE: 00 verify training files	(2018-08-11 10:45)</h3>
+<p class='phase'>Phase 1: Checking to see if the dict and filler dict agrees with the phonelist file.</p>
+<p class='result'>Found 9 words using 15 phones</p>
+<span class='status passed'>passed</span>
+<p class='phase'>Phase 2: Checking to make sure there are not duplicate entries in the dictionary</p>
+<span class='status passed'>passed</span>
+<p class='phase'>Phase 3: Check general format for the fileids file; utterance length (must be positive); files exist</p>
+<span class='status passed'>passed</span>
+<p class='phase'>Phase 4: Checking number of lines in the transcript file should match lines in fileids file</p>
+<span class='status passed'>passed</span>
+<p class='phase'>Phase 5: Determine amount of training data, see if n_tied_states seems reasonable.</p>
+<p class='result'>Estimated Total Hours Training: 0.00446388888888889</p>
+<p class='result'>This is a small amount of data, no comment at this time</p>
+<span class='status WARNING'>WARNING</span>
+<p class='phase'>Phase 6: Checking that all the words in the transcript are in the dictionary</p>
+<p class='result'>Words in dictionary: 6</p>
+<p class='result'>Words in filler dictionary: 3</p>
+<p class='warning'>WARNING: This word: <s> was in the transcript file, but is not in the dictionary (<s> BUKA PROGRAM </s> ). Do cases match?</p>
+<p class='warning'>WARNING: This word: <s> was in the transcript file, but is not in the dictionary (<s> TUTUP PROGRAM </s> ). Do cases match?</p>
+<p class='warning'>WARNING: This word: <s> was in the transcript file, but is not in the dictionary (<s> BUKA BROWSER </s> ). Do cases match?</p>
+<p class='warning'>WARNING: This word: BROWSER was in the transcript file, but is not in the dictionary (<s> BUKA BROWSER </s> ). Do cases match?</p>
+<p class='warning'>WARNING: This word: <s> was in the transcript file, but is not in the dictionary (<s> TUTUP BROWSER </s> ). Do cases match?</p>
+<p class='warning'>WARNING: This word: BROWSER was in the transcript file, but is not in the dictionary (<s> TUTUP BROWSER </s> ). Do cases match?</p>
+<p class='warning'>WARNING: This word: <s> was in the transcript file, but is not in the dictionary (<s> BUKA KAMERA </s> ). Do cases match?</p>
+<p class='warning'>WARNING: This word: <s> was in the transcript file, but is not in the dictionary (<s> TUTUP KAMERA </s> ). Do cases match?</p>
+<p class='warning'>WARNING: This word: <s> was in the transcript file, but is not in the dictionary (<s> BUKA MUSIK </s> ). Do cases match?</p>
+<p class='warning'>WARNING: This word: <s> was in the transcript file, but is not in the dictionary (<s> TUTUP MUSIK </s> ). Do cases match?</p>
+<span class='status FAILED'>FAILED</span>
+<p class='phase'>Phase 7: Checking that all the phones in the transcript are in the phonelist, and all phones in the phonelist appear at least once</p>
+<p class='warning'>WARNING: This phone (ER) occurs in the phonelist (/home/aqom/sphinx-source/indo/etc/indo.phone), but not in any word in the transcription (/home/aqom/sphinx-source/indo/etc/indo_train.transcription)</p>
+<span class='status FAILED'>FAILED</span>
+<hr>
+<h3>MODULE: 000 Computing feature from audio files	(2018-08-11 10:57)</h3>
+<p class='audio files'>Extracting features from  segments starting at  (part 1 of 1) </p>
+<p class='result'>sphinx_fe <a href="file:///home/aqom/sphinx-source/indo/logdir/000.comp_feat/indo.train-1-1.log">Log File</a></p><span class='status completed'>completed</span>
+<p class='audio files'>Extracting features from  segments starting at  (part 1 of 1) </p>
+<p class='result'>sphinx_fe <a href="file:///home/aqom/sphinx-source/indo/logdir/000.comp_feat/indo.test-1-1.log">Log File</a></p><span class='status completed'>completed</span>
+<p>Feature extraction is done</p>
+<hr>
+<h3>MODULE: 00 verify training files	(2018-08-11 10:57)</h3>
+<p class='phase'>Phase 1: Checking to see if the dict and filler dict agrees with the phonelist file.</p>
+<p class='result'>Found 10 words using 15 phones</p>
+<span class='status passed'>passed</span>
+<p class='phase'>Phase 2: Checking to make sure there are not duplicate entries in the dictionary</p>
+<p class='warning'>WARNING: This word (﻿<s>) has duplicate entries in (/home/aqom/sphinx-source/indo/etc/indo.dic)</p>
+<span class='status FAILED'>FAILED</span>
+<p class='phase'>Phase 3: Check general format for the fileids file; utterance length (must be positive); files exist</p>
+<span class='status passed'>passed</span>
+<p class='phase'>Phase 4: Checking number of lines in the transcript file should match lines in fileids file</p>
+<span class='status passed'>passed</span>
+<p class='phase'>Phase 5: Determine amount of training data, see if n_tied_states seems reasonable.</p>
+<p class='result'>Estimated Total Hours Training: 0.00446388888888889</p>
+<p class='result'>This is a small amount of data, no comment at this time</p>
+<span class='status WARNING'>WARNING</span>
+<p class='phase'>Phase 6: Checking that all the words in the transcript are in the dictionary</p>
+<p class='result'>Words in dictionary: 7</p>
+<p class='result'>Words in filler dictionary: 3</p>
+<p class='warning'>WARNING: This word: <s> was in the transcript file, but is not in the dictionary (<s> BUKA PROGRAM </s> ). Do cases match?</p>
+<p class='warning'>WARNING: This word: <s> was in the transcript file, but is not in the dictionary (<s> TUTUP PROGRAM </s> ). Do cases match?</p>
+<p class='warning'>WARNING: This word: <s> was in the transcript file, but is not in the dictionary (<s> BUKA BROWSER </s> ). Do cases match?</p>
+<p class='warning'>WARNING: This word: <s> was in the transcript file, but is not in the dictionary (<s> TUTUP BROWSER </s> ). Do cases match?</p>
+<p class='warning'>WARNING: This word: <s> was in the transcript file, but is not in the dictionary (<s> BUKA KAMERA </s> ). Do cases match?</p>
+<p class='warning'>WARNING: This word: <s> was in the transcript file, but is not in the dictionary (<s> TUTUP KAMERA </s> ). Do cases match?</p>
+<p class='warning'>WARNING: This word: <s> was in the transcript file, but is not in the dictionary (<s> BUKA MUSIK </s> ). Do cases match?</p>
+<p class='warning'>WARNING: This word: <s> was in the transcript file, but is not in the dictionary (<s> TUTUP MUSIK </s> ). Do cases match?</p>
+<span class='status FAILED'>FAILED</span>
+<p class='phase'>Phase 7: Checking that all the phones in the transcript are in the phonelist, and all phones in the phonelist appear at least once</p>
+<span class='status passed'>passed</span>

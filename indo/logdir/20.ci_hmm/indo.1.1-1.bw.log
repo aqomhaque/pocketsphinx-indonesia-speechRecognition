@@ -1,0 +1,133 @@
+        INFO: main.c(229): Compiled on Aug  9 2018 at 17:11:42
+Current configuration:
+[NAME]		[DEFLT]		[VALUE]
+-2passvar	no		no
+-abeam		1e-100		1.000000e-90
+-accumdir			/home/aqom/sphinx-source/indo/bwaccumdir/indo_buff_1
+-agc		none		none
+-agcthresh	2.0		2.000000e+00
+-bbeam		1e-100		1.000000e-10
+-cb2mllrfn	.1cls.		.1cls.
+-cepdir				/home/aqom/sphinx-source/indo/feat
+-cepext		mfc		mfc
+-ceplen		13		13
+-ckptintv			0
+-cmn		live		batch
+-cmninit	40,3,-1		40,3,-1
+-ctlfn				/home/aqom/sphinx-source/indo/etc/indo_train.fileids
+-diagfull	no		no
+-dictfn				/home/aqom/sphinx-source/indo/etc/indo.dic
+-example	no		no
+-fdictfn			/home/aqom/sphinx-source/indo/etc/indo.filler
+-feat		1s_c_d_dd	1s_c_d_dd
+-fullvar	no		no
+-help		no		no
+-hmmdir				
+-latdir				
+-latext				
+-lda				
+-ldadim		0		0
+-lsnfn				/home/aqom/sphinx-source/indo/etc/indo_train.transcription
+-lw		11.5		1.150000e+01
+-maxuttlen	0		0
+-meanfn				/home/aqom/sphinx-source/indo/model_parameters/indo.ci_cont_flatinitial/means
+-meanreest	yes		yes
+-mixwfn				/home/aqom/sphinx-source/indo/model_parameters/indo.ci_cont_flatinitial/mixture_weights
+-mixwreest	yes		yes
+-mllrmat			
+-mmie		no		no
+-mmie_type	rand		rand
+-moddeffn			/home/aqom/sphinx-source/indo/model_architecture/indo.ci.mdef
+-mwfloor	0.00001		1.000000e-08
+-npart				1
+-nskip				0
+-outphsegdir			
+-outputfullpath	no		no
+-part				1
+-pdumpdir			
+-phsegdir			
+-phsegext	phseg		phseg
+-runlen		-1		-1
+-sentdir			
+-sentext	sent		sent
+-spthresh	0.0		0.000000e+00
+-svspec				
+-timing		yes		no
+-tmatfn				/home/aqom/sphinx-source/indo/model_parameters/indo.ci_cont_flatinitial/transition_matrices
+-tmatreest	yes		yes
+-topn		4		1
+-tpfloor	0.0001		1.000000e-04
+-ts2cbfn			.cont.
+-varfloor	0.00001		1.000000e-04
+-varfn				/home/aqom/sphinx-source/indo/model_parameters/indo.ci_cont_flatinitial/variances
+-varnorm	no		no
+-varreest	yes		yes
+-viterbi	no		no
+
+INFO: feat.c(715): Initializing feature stream to type: '1s_c_d_dd', ceplen=13, CMN='batch', VARNORM='no', AGC='none'
+INFO: main.c(318): Reading /home/aqom/sphinx-source/indo/model_architecture/indo.ci.mdef
+INFO: model_def_io.c(573): Model definition info:
+INFO: model_def_io.c(574): 15 total models defined (15 base, 0 tri)
+INFO: model_def_io.c(575): 60 total states
+INFO: model_def_io.c(576): 45 total tied states
+INFO: model_def_io.c(577): 45 total tied CI states
+INFO: model_def_io.c(578): 15 total tied transition matrices
+INFO: model_def_io.c(579): 4 max state/model
+INFO: model_def_io.c(580): 4 min state/model
+INFO: s3mixw_io.c(117): Read /home/aqom/sphinx-source/indo/model_parameters/indo.ci_cont_flatinitial/mixture_weights [45x1x1 array]
+INFO: s3tmat_io.c(118): Read /home/aqom/sphinx-source/indo/model_parameters/indo.ci_cont_flatinitial/transition_matrices [15x3x4 array]
+INFO: mod_inv.c(301): inserting tprob floor 1.000000e-04 and renormalizing
+INFO: s3gau_io.c(169): Read /home/aqom/sphinx-source/indo/model_parameters/indo.ci_cont_flatinitial/means [45x1x1 array]
+INFO: s3gau_io.c(169): Read /home/aqom/sphinx-source/indo/model_parameters/indo.ci_cont_flatinitial/variances [45x1x1 array]
+INFO: gauden.c(176): 45 total mgau
+INFO: gauden.c(150): 1 feature streams (|0|=39 )
+INFO: gauden.c(187): 1 total densities
+INFO: gauden.c(90): min_var=1.000000e-04
+INFO: gauden.c(165): compute 1 densities/frame
+INFO: main.c(431): Will reestimate mixing weights.
+INFO: main.c(433): Will reestimate means.
+INFO: main.c(435): Will reestimate variances.
+INFO: main.c(443): Will reestimate transition matrices
+INFO: main.c(456): Reading main dictionary: /home/aqom/sphinx-source/indo/etc/indo.dic
+INFO: lexicon.c(221): 7 entries added from /home/aqom/sphinx-source/indo/etc/indo.dic
+INFO: main.c(466): Reading filler dictionary: /home/aqom/sphinx-source/indo/etc/indo.filler
+INFO: lexicon.c(221): 3 entries added from /home/aqom/sphinx-source/indo/etc/indo.filler
+INFO: corpus.c(1062): Will process all remaining utts starting at 0
+INFO: main.c(665): Reestimation: Baum-Welch
+INFO: cmn.c(133): CMN: 34.66 -4.45 -1.82  9.34 -15.11 -16.27 19.56 -10.77  7.61 -17.53  8.94 -7.21 -7.59 
+column defns
+	<seq>
+	<id>
+	<n_frame_in>
+	<n_frame_del>
+	<n_state_shmm>
+	<avg_states_alpha>
+	<avg_states_beta>
+	<avg_states_reest>
+	<avg_posterior_prune>
+	<frame_log_lik>
+	<utt_log_lik>
+	... timing info ... 
+utt>     0                   indo1_1  255    0INFO: cvt2triphone.c(199): no multiphones defined, no conversion done
+    56 51  25 51 2.845822e-11 -1.694595e+02 -4.321218e+04
+INFO: cmn.c(133): CMN: 44.31  0.66  2.62 15.81 -23.95 -9.91 18.27 -8.13  2.23 -27.56  9.81 -10.51 -5.26 
+utt>     1                   indo2_1  186    0    60 52  25 50 2.892904e-11 -1.745275e+02 -3.246211e+04
+INFO: cmn.c(133): CMN: 47.65 -1.82  0.33 14.59 -24.34 -11.24 11.34 -14.58  5.30 -15.82 14.05 -14.36 -7.27 
+utt>     2                   indo3_1  187    0    48 43  22 45 2.453300e-11 -1.739999e+02 -3.253798e+04
+INFO: cmn.c(133): CMN: 45.89 -3.41  8.59 16.14 -21.42 -12.06 12.57 -10.74  1.03 -23.51 12.22 -12.37 -6.02 
+utt>     3                   indo4_1  186    0    52 46  23 47 2.738880e-11 -1.752203e+02 -3.259098e+04
+INFO: cmn.c(133): CMN: 54.08  5.93 -12.80 18.89 -30.31 -2.92  2.81 -15.69 19.42 -12.35 16.50 -21.25 -6.83 
+utt>     4                   indo5_1  189    0    52 46  23 47 2.618130e-11 -1.746866e+02 -3.301576e+04
+INFO: cmn.c(133): CMN: 49.52  2.67 -4.07 19.15 -26.23 -4.47  4.93 -11.45 13.89 -19.16 13.57 -18.17 -5.09 
+utt>     5                   indo6_1  187    0    56 49  24 49 2.897380e-11 -1.751592e+02 -3.275478e+04
+INFO: cmn.c(133): CMN: 42.26 -8.19  4.55 21.55 -19.13 -5.29 17.94 -0.95  5.38 -30.25 10.80 -12.40 -4.95 
+utt>     6                   indo7_1  240    0    48 44  23 46 2.444254e-11 -1.705837e+02 -4.094008e+04
+INFO: cmn.c(133): CMN: 42.81 -9.40 14.55 25.53 -19.94 -4.88 18.48  2.32  1.04 -39.57  9.37 -11.01 -3.37 
+utt>     7                   indo8_1  177    0    52 46  23 46 2.774761e-11 -1.755122e+02 -3.106565e+04
+overall> stats 1607 (-0) -1.733538e+02 -2.785795e+05
+
+INFO: s3mixw_io.c(233): Wrote /home/aqom/sphinx-source/indo/bwaccumdir/indo_buff_1/mixw_counts [45x1x1 array]
+INFO: s3tmat_io.c(176): Wrote /home/aqom/sphinx-source/indo/bwaccumdir/indo_buff_1/tmat_counts [15x3x4 array]
+INFO: s3gau_io.c(485): Wrote /home/aqom/sphinx-source/indo/bwaccumdir/indo_buff_1/gauden_counts with means with vars [45x1x1 vector arrays]
+INFO: main.c(999): Counts saved to /home/aqom/sphinx-source/indo/bwaccumdir/indo_buff_1
+Sat Aug 11 10:43:16 2018

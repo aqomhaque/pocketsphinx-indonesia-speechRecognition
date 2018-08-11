@@ -1,0 +1,47 @@
+Current configuration:
+[NAME]		[DEFLT]		[VALUE]
+-accumdir			/home/aqom/sphinx-source/indo/bwaccumdir/indo_buff_1
+-agc		none		none
+-agcthresh	2.0		2.000000e+00
+-cepdir				/home/aqom/sphinx-source/indo/feat
+-cepext		mfc		mfc
+-ceplen		13		13
+-cmn		live		batch
+-cmninit	40,3,-1		40,3,-1
+-ctlfn				/home/aqom/sphinx-source/indo/etc/indo_train.fileids
+-dictfn				
+-example	no		no
+-fdictfn			
+-feat		1s_c_d_dd	1s_c_d_dd
+-fullvar	no		no
+-help		no		no
+-lda				
+-ldadim		0		0
+-lsnfn				
+-meanfn				/home/aqom/sphinx-source/indo/model_parameters/indo.ci_cont_flatinitial/globalmean
+-moddeffn			
+-npart				1
+-nskip				0
+-part				1
+-runlen				0
+-scaleseg	no		no
+-segdir				
+-segext		v8_seg		v8_seg
+-svspec				
+-ts2cbfn			
+-varnorm	no		no
+
+INFO: feat.c(715): Initializing feature stream to type: '1s_c_d_dd', ceplen=13, CMN='batch', VARNORM='no', AGC='none'
+INFO: corpus.c(1062): Will process all remaining utts starting at 0
+INFO: init_gau.c(145): Computing 1x1x1 variance estimates
+INFO: s3gau_io.c(169): Read /home/aqom/sphinx-source/indo/model_parameters/indo.ci_cont_flatinitial/globalmean [1x1x1 array]
+INFO: cmn.c(133): CMN: 34.66 -4.45 -1.82  9.34 -15.11 -16.27 19.56 -10.77  7.61 -17.53  8.94 -7.21 -7.59 
+INFO: cmn.c(133): CMN: 44.31  0.66  2.62 15.81 -23.95 -9.91 18.27 -8.13  2.23 -27.56  9.81 -10.51 -5.26 
+INFO: cmn.c(133): CMN: 47.65 -1.82  0.33 14.59 -24.34 -11.24 11.34 -14.58  5.30 -15.82 14.05 -14.36 -7.27 
+INFO: cmn.c(133): CMN: 45.89 -3.41  8.59 16.14 -21.42 -12.06 12.57 -10.74  1.03 -23.51 12.22 -12.37 -6.02 
+INFO: cmn.c(133): CMN: 54.08  5.93 -12.80 18.89 -30.31 -2.92  2.81 -15.69 19.42 -12.35 16.50 -21.25 -6.83 
+INFO: cmn.c(133): CMN: 49.52  2.67 -4.07 19.15 -26.23 -4.47  4.93 -11.45 13.89 -19.16 13.57 -18.17 -5.09 
+INFO: cmn.c(133): CMN: 42.26 -8.19  4.55 21.55 -19.13 -5.29 17.94 -0.95  5.38 -30.25 10.80 -12.40 -4.95 
+INFO: cmn.c(133): CMN: 42.81 -9.40 14.55 25.53 -19.94 -4.88 18.48  2.32  1.04 -39.57  9.37 -11.01 -3.37 
+INFO: s3gau_io.c(485): Wrote /home/aqom/sphinx-source/indo/bwaccumdir/indo_buff_1/gauden_counts with vars (2pass) [1x1x1 vector arrays]
+Sat Aug 11 10:43:16 2018

@@ -1,0 +1,161 @@
+        INFO: pocketsphinx.c(152): Parsed model-specific feature parameters from /home/aqom/sphinx-source/indo/model_parameters/indo.ci_cont/feat.params
+Current configuration:
+[NAME]			[DEFLT]		[VALUE]
+-agc			none		none
+-agcthresh		2.0		2.000000e+00
+-allphone				
+-allphone_ci		yes		yes
+-alpha			0.97		9.700000e-01
+-ascale			20.0		2.000000e+01
+-aw			1		1
+-backtrace		no		no
+-beam			1e-48		1.000000e-80
+-bestpath		yes		yes
+-bestpathlw		9.5		1.000000e+01
+-ceplen			13		13
+-cmn			live		batch
+-cmninit		40,3,-1		40,3,-1
+-compallsen		no		no
+-dict					/home/aqom/sphinx-source/indo/etc/indo.dic
+-dictcase		no		no
+-dither			no		no
+-doublebw		no		no
+-ds			1		1
+-fdict					
+-feat			1s_c_d_dd	1s_c_d_dd
+-featparams				
+-fillprob		1e-8		1.000000e-08
+-frate			100		100
+-fsg					
+-fsgusealtpron		yes		yes
+-fsgusefiller		yes		yes
+-fwdflat		yes		yes
+-fwdflatbeam		1e-64		1.000000e-80
+-fwdflatefwid		4		4
+-fwdflatlw		8.5		1.000000e+01
+-fwdflatsfwin		25		25
+-fwdflatwbeam		7e-29		1.000000e-40
+-fwdtree		yes		yes
+-hmm					/home/aqom/sphinx-source/indo/model_parameters/indo.ci_cont
+-input_endian		little		little
+-jsgf					/home/aqom/sphinx-source/indo/etc/indo.jsgf
+-keyphrase				
+-kws					
+-kws_delay		10		10
+-kws_plp		1e-1		1.000000e-01
+-kws_threshold		1e-30		1.000000e-30
+-latsize		5000		5000
+-lda					
+-ldadim			0		0
+-lifter			0		22
+-lm					
+-lmctl					
+-lmname					
+-logbase		1.0001		1.000100e+00
+-logfn					
+-logspec		no		no
+-lowerf			133.33334	1.300000e+02
+-lpbeam			1e-40		1.000000e-80
+-lponlybeam		7e-29		1.000000e-80
+-lw			6.5		1.000000e+01
+-maxhmmpf		30000		30000
+-maxwpf			-1		-1
+-mdef					
+-mean					
+-mfclogdir				
+-min_endfr		0		0
+-mixw					
+-mixwfloor		0.0000001	1.000000e-07
+-mllr					
+-mmap			yes		yes
+-ncep			13		13
+-nfft			512		512
+-nfilt			40		25
+-nwpen			1.0		1.000000e+00
+-pbeam			1e-48		1.000000e-80
+-pip			1.0		1.000000e+00
+-pl_beam		1e-10		1.000000e-10
+-pl_pbeam		1e-10		1.000000e-10
+-pl_pip			1.0		1.000000e+00
+-pl_weight		3.0		3.000000e+00
+-pl_window		5		5
+-rawlogdir				
+-remove_dc		no		no
+-remove_noise		yes		yes
+-remove_silence		yes		yes
+-round_filters		yes		yes
+-samprate		16000		1.600000e+04
+-seed			-1		-1
+-sendump				
+-senlogdir				
+-senmgau				
+-silprob		0.005		5.000000e-03
+-smoothspec		no		no
+-svspec					
+-tmat					
+-tmatfloor		0.0001		1.000000e-04
+-topn			4		4
+-topn_beam		0		0
+-toprule				
+-transform		legacy		dct
+-unit_area		yes		yes
+-upperf			6855.4976	6.800000e+03
+-uw			1.0		1.000000e+00
+-vad_postspeech		50		50
+-vad_prespeech		20		20
+-vad_startspeech	10		10
+-vad_threshold		3.0		3.000000e+00
+-var					
+-varfloor		0.0001		1.000000e-04
+-varnorm		no		no
+-verbose		no		no
+-warp_params				
+-warp_type		inverse_linear	inverse_linear
+-wbeam			7e-29		1.000000e-40
+-wip			0.65		2.000000e-01
+-wlen			0.025625	2.562500e-02
+
+INFO: feat.c(715): Initializing feature stream to type: '1s_c_d_dd', ceplen=13, CMN='batch', VARNORM='no', AGC='none'
+INFO: mdef.c(518): Reading model definition: /home/aqom/sphinx-source/indo/model_parameters/indo.ci_cont/mdef
+INFO: bin_mdef.c(181): Allocating 64 * 8 bytes (0 KiB) for CD tree
+INFO: tmat.c(149): Reading HMM transition probability matrices: /home/aqom/sphinx-source/indo/model_parameters/indo.ci_cont/transition_matrices
+INFO: acmod.c(113): Attempting to use PTM computation module
+INFO: ms_gauden.c(127): Reading mixture gaussian parameter: /home/aqom/sphinx-source/indo/model_parameters/indo.ci_cont/means
+INFO: ms_gauden.c(242): 45 codebook, 1 feature, size: 
+INFO: ms_gauden.c(244):  1x39
+INFO: ms_gauden.c(127): Reading mixture gaussian parameter: /home/aqom/sphinx-source/indo/model_parameters/indo.ci_cont/variances
+INFO: ms_gauden.c(242): 45 codebook, 1 feature, size: 
+INFO: ms_gauden.c(244):  1x39
+INFO: ms_gauden.c(304): 0 variance values floored
+INFO: ptm_mgau.c(807): Number of codebooks doesn't match number of ciphones, doesn't look like PTM: 45 != 15
+INFO: acmod.c(115): Attempting to use semi-continuous computation module
+INFO: ms_gauden.c(127): Reading mixture gaussian parameter: /home/aqom/sphinx-source/indo/model_parameters/indo.ci_cont/means
+INFO: ms_gauden.c(242): 45 codebook, 1 feature, size: 
+INFO: ms_gauden.c(244):  1x39
+INFO: ms_gauden.c(127): Reading mixture gaussian parameter: /home/aqom/sphinx-source/indo/model_parameters/indo.ci_cont/variances
+INFO: ms_gauden.c(242): 45 codebook, 1 feature, size: 
+INFO: ms_gauden.c(244):  1x39
+INFO: ms_gauden.c(304): 0 variance values floored
+INFO: acmod.c(117): Falling back to general multi-stream GMM computation
+INFO: ms_gauden.c(127): Reading mixture gaussian parameter: /home/aqom/sphinx-source/indo/model_parameters/indo.ci_cont/means
+INFO: ms_gauden.c(242): 45 codebook, 1 feature, size: 
+INFO: ms_gauden.c(244):  1x39
+INFO: ms_gauden.c(127): Reading mixture gaussian parameter: /home/aqom/sphinx-source/indo/model_parameters/indo.ci_cont/variances
+INFO: ms_gauden.c(242): 45 codebook, 1 feature, size: 
+INFO: ms_gauden.c(244):  1x39
+INFO: ms_gauden.c(304): 0 variance values floored
+INFO: ms_senone.c(149): Reading senone mixture weights: /home/aqom/sphinx-source/indo/model_parameters/indo.ci_cont/mixture_weights
+INFO: ms_senone.c(200): Truncating senone logs3(pdf) values by 10 bits
+INFO: ms_senone.c(207): Not transposing mixture weights in memory
+INFO: ms_senone.c(268): Read mixture weights for 45 senones: 1 features x 1 codewords
+INFO: ms_senone.c(320): Mapping senones to individual codebooks
+INFO: ms_mgau.c(144): The value of topn: 4
+WARN: "ms_mgau.c", line 148: -topn argument (4) invalid or > #density codewords (1); set to latter
+INFO: phone_loop_search.c(114): State beam -225 Phone exit beam -225 Insertion penalty 0
+INFO: dict.c(320): Allocating 4106 * 32 bytes (128 KiB) for word entries
+INFO: dict.c(333): Reading main dictionary: /home/aqom/sphinx-source/indo/etc/indo.dic
+INFO: dict.c(213): Dictionary size 7, allocated 0 KiB for strings, 0 KiB for phones
+INFO: dict.c(336): 7 words read
+ERROR: "dict.c", line 340: Remove sentence start word '<s>' from the dictionary
+FATAL: "batch.c", line 822: PocketSphinx decoder init failed
+Sat Aug 11 10:43:20 2018
